@@ -4,6 +4,10 @@
     <string name="tv_about">关于这个app</string>
     <string name="tv_about_des">这个有许多Android开发的demo,如果有需要的可以联系letuszou@126.com获取源码</string>
     <string name="tv_about_send">点击发送电子邮件,索取源码</string>
+    <string name="tv_about_input">输入您有效的电子邮件</string>
+    <string name="tv_about_confirm">调用手机可用的发送邮件的app</string>
+    <string name="btn_about_confirm">确认发送</string>
+    <string name="tv_about_cancle">取消</string>
     <string name="tv_about_update_title">检查新版本可以获取更多demo</string>
     <string name="tv_about_update_update">检查新版本</string>
 

@@ -8,4 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="tv_dialog_title">
+        <item name="android:background">@color/bg_open_red</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="btn_blue">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
 </resources>

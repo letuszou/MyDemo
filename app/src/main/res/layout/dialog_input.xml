@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        style="@style/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/tv_about_input"
+        android:textSize="22sp" />
+
+
+    <EditText
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/et_dialog_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_dialog_title"
+        android:layout_marginTop="13.4dp"
+        android:hint="@string/tv_about_input"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <Button
+        style="@style/btn_blue"
+        android:id="@+id/btn_dialog_email_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_about_confirm"
+        android:layout_below="@+id/et_dialog_email_input"
+        android:layout_alignLeft="@+id/et_dialog_email_input"
+        android:layout_alignStart="@+id/et_dialog_email_input" />
+
+    <Button
+        style="@style/btn_blue"
+        android:id="@+id/btn_dialog_email_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_about_cancle"
+        android:layout_alignTop="@+id/btn_dialog_email_confirm"
+        android:layout_alignRight="@+id/et_dialog_email_input"
+        android:layout_alignEnd="@+id/et_dialog_email_input" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/btn_dialog_email_confirm"
+        android:textSize="16sp"
+        android:textColor="@color/gray_3"
+        android:layout_marginTop="13.4dp"
+        android:text="@string/tv_about_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
