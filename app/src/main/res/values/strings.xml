@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">程序员的Demo集合</string>
+
+    <string name="tv_about">关于这个app</string>
+    <string name="tv_about_des">这个有许多Android开发的demo,如果有需要的可以联系letuszou@126.com获取源码</string>
+    <string name="tv_about_send">点击发送电子邮件,索取源码</string>
+    <string name="tv_about_update_title">检查新版本可以获取更多demo</string>
+    <string name="tv_about_update_update">检查新版本</string>
+
+
+    <string name="tv_expand">ExpandableListView的Demo</string>
+
+    <string name="tv_button_switch">ButtonSwitch的Demo</string>
+    <string name="toggle_button">ToggleButton实现</string>
+    <string name="toggle_button_ios">ToggleButton仿IOS7开关实现</string>
+
+
+    <string name="tv_my_checkbox_one">自定义CheckBox一</string>
+    <string name="tv_my_checkbox_two">自定义CheckBox二</string>
+
+    <string name="btn_compound">自定义CompoundButton实现</string>
+
+
+    <string name="slide_switch_view">自定义View实现(可滑动)</string>
+
+
+    <string name="tv_pdf_read">Pdf阅读的Demo</string>
+
+</resources>
