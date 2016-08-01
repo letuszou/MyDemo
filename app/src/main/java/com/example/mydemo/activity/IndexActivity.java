@@ -11,9 +11,9 @@ import com.example.mydemo.R;
 public class IndexActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView tv_expand;
-    private TextView tv_button_switch;
     private TextView tv_pdf_read;
     private TextView tv_about;
+    private TextView tv_video_play;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +28,8 @@ public class IndexActivity extends AppCompatActivity implements View.OnClickList
     private void initView(){
         tv_about = (TextView)findViewById(R.id.tv_about);
         tv_expand = (TextView)findViewById(R.id.tv_expand);
-        tv_button_switch = (TextView)findViewById(R.id.tv_button_switch);
         tv_pdf_read = (TextView)findViewById(R.id.tv_pdf_read);
+        tv_video_play = (TextView)findViewById(R.id.tv_video_play);
 
     }
 
@@ -37,8 +37,8 @@ public class IndexActivity extends AppCompatActivity implements View.OnClickList
     private void initListener(){
         tv_about.setOnClickListener(this);
         tv_expand.setOnClickListener(this);
-        tv_button_switch.setOnClickListener(this);
         tv_pdf_read.setOnClickListener(this);
+        tv_video_play.setOnClickListener(this);
 
     }
 
@@ -48,15 +48,16 @@ public class IndexActivity extends AppCompatActivity implements View.OnClickList
             case R.id.tv_about:
                 startActivity(new Intent(IndexActivity.this,AboutActivity.class));
                 break;
-//            case R.id.tv_expand:
-//                startActivity(new Intent(IndexActivity.this,ExpandListViewActivity.class));
-//                break;
-//            case R.id.tv_button_switch:
-//                startActivity(new Intent(IndexActivity.this,ButtonSwitchActivity.class));
-//                break;
-//            case R.id.tv_pdf_read:
-//                startActivity(new Intent(IndexActivity.this,PdfActivity.class));
-//                break;
+            case R.id.tv_expand:
+                startActivity(new Intent(IndexActivity.this,ExpandableListviewActivity.class));
+                break;
+            case R.id.tv_pdf_read:
+                startActivity(new Intent(IndexActivity.this,PdfviewActivity.class));
+                break;
+            case R.id.tv_video_play:
+                startActivity(new Intent(IndexActivity.this,VideoPlayActivity.class));
+                break;
+
 
         }
 

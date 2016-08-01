@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VideoJjSdkDemo.iml" filepath="$PROJECT_DIR$/VideoJjSdkDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videoJjSdkDemo/videoJjSdkDemo.iml" filepath="$PROJECT_DIR$/videoJjSdkDemo/videoJjSdkDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videoJjlibrary/videoJjlibrary.iml" filepath="$PROJECT_DIR$/videoJjlibrary/videoJjlibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+include ':videoJjlibrary'
+include ':videoJjSdkDemo'

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\res\\merged\\debug\\anim\\venvy_slide_out_bottom.xml",
+        "source": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\exploded-aar\\VideoJjSdkDemo\\videoJjlibrary\\unspecified\\res\\anim\\venvy_slide_out_bottom.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\res\\merged\\debug\\anim\\venvy_slide_out_top.xml",
+        "source": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\exploded-aar\\VideoJjSdkDemo\\videoJjlibrary\\unspecified\\res\\anim\\venvy_slide_out_top.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\res\\merged\\debug\\anim\\venvy_slide_in_top.xml",
+        "source": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\exploded-aar\\VideoJjSdkDemo\\videoJjlibrary\\unspecified\\res\\anim\\venvy_slide_in_top.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\res\\merged\\debug\\anim\\venvy_slide_in_bottom.xml",
+        "source": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjSdkDemo\\build\\intermediates\\exploded-aar\\VideoJjSdkDemo\\videoJjlibrary\\unspecified\\res\\anim\\venvy_slide_in_bottom.xml"
+    }
+]

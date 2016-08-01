@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\venvy_sdk_media_controller_pause_bg.png",
+        "source": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\venvy_sdk_media_controller_pause_bg.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4\\venvy_sdk_media_controller_play_bg.png",
+        "source": "H:\\workSpace\\MyDemo\\VideoJjSdkDemo\\videoJjlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\venvy_sdk_media_controller_play_bg.png"
+    }
+]

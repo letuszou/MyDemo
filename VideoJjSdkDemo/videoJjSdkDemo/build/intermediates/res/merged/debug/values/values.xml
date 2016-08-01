@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="circular_progress_indeterminate">true</bool>
+    <color name="checkbox_checked_color">#55b03d</color>
+    <color name="checkbox_color">#6d6d6d</color>
+    <color name="checkbox_mark_color">#eeeeee</color>
+    <color name="circle_button_color">#ff3f51b5</color>
+    <color name="circle_button_shadow_color">#ff000000</color>
+    <color name="circular_progress_color">#ff3f51b5</color>
+    <color name="floating_edit_text_color">#ffc8c8c8</color>
+    <color name="floating_edit_text_error_color">#DB4437</color>
+    <color name="floating_edit_text_highlighted_color">#ff3f51b5</color>
+    <color name="linear_progress_color">#ff3f51b5</color>
+    <color name="paper_button_color">#ffffffff</color>
+    <color name="paper_button_shadow_color">#000000</color>
+    <color name="paper_text_color">#60000000</color>
+    <color name="radio_checked_color">#55b03d</color>
+    <color name="radio_color">#6d6d6d</color>
+    <color name="slider_color">#ffc8c8c8</color>
+    <color name="slider_ripple_color">#ffd4d4d4</color>
+    <color name="slider_tint_color">#ff3f51b5</color>
+    <color name="switch_thumb_checked_color">#289d4d</color>
+    <color name="switch_thumb_color">#929292</color>
+    <color name="switch_track_checked_color">#2d523e</color>
+    <color name="switch_track_color">#4f4f4f</color>
+    <color name="tab_ripple_color">#000000</color>
+    <color name="tab_text_color">#9FC1FB</color>
+    <color name="tab_text_disabled_color">#000000</color>
+    <color name="tab_text_selected_color">#FFFFFF</color>
+    <color name="tab_underline_color">#283593</color>
+    <color name="track_slider_color">#ffc8c8c8</color>
+    <color name="track_slider_tint_color">#ff3f51b5</color>
+    <color name="venvy_video_buffer_text_color">#ffececec</color>
+    <color name="venvy_video_dg_divider_color">#E9E9E9</color>
+    <color name="venvy_video_dg_item_text_color">#404060</color>
+    <color name="venvy_video_line_color">#78729B</color>
+    <color name="venvy_video_link_color">#ffffff</color>
+    <color name="venvy_video_link_color_up">#f3f3f3</color>
+    <color name="venvy_video_load_bg_color">#BABABA</color>
+    <color name="venvy_video_load_text_color">#666666</color>
+    <declare-styleable name="VideoJjCofInfo"><attr format="string" name="VideoJjAppKay"/><attr format="string" name="VideoJjPageName"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="checkbox_border_width">2dp</dimen>
+    <dimen name="checkbox_corner_radius">2dp</dimen>
+    <dimen name="checkbox_height">48dp</dimen>
+    <dimen name="checkbox_mark_bottom_padding">5dp</dimen>
+    <dimen name="checkbox_mark_left_right_padding">3dp</dimen>
+    <dimen name="checkbox_mark_top_padding">4dp</dimen>
+    <dimen name="checkbox_mark_width">2dp</dimen>
+    <dimen name="checkbox_ripple_radius">24dp</dimen>
+    <dimen name="checkbox_thumb_size">20dp</dimen>
+    <dimen name="checkbox_width">48dp</dimen>
+    <dimen name="circle_button_height">72dp</dimen>
+    <dimen name="circle_button_width">72dp</dimen>
+    <dimen name="circular_progress_border_width">4dp</dimen>
+    <dimen name="circular_progress_large_size">60dp</dimen>
+    <dimen name="circular_progress_normal_size">48dp</dimen>
+    <dimen name="circular_progress_small_size">36dp</dimen>
+    <dimen name="floating_edit_text_underline_height">1dp</dimen>
+    <dimen name="floating_edit_text_underline_highlighted_height">2dp</dimen>
+    <dimen name="linear_progress_line_width">4dp</dimen>
+    <dimen name="paper_button_corner_radius">2dp</dimen>
+    <dimen name="paper_padding">7dp</dimen>
+    <dimen name="paper_text_size">15sp</dimen>
+    <dimen name="radio_border_radius">10dp</dimen>
+    <dimen name="radio_height">48dp</dimen>
+    <dimen name="radio_ripple_radius">24dp</dimen>
+    <dimen name="radio_stroke_width">2dp</dimen>
+    <dimen name="radio_thumb_radius">6dp</dimen>
+    <dimen name="radio_width">48dp</dimen>
+    <dimen name="slider_bar_height">2dp</dimen>
+    <dimen name="slider_thumb_border_width">2dp</dimen>
+    <dimen name="slider_thumb_radius">10dp</dimen>
+    <dimen name="slider_thumb_ripple_radius">30dp</dimen>
+    <dimen name="switch_height">48dp</dimen>
+    <dimen name="switch_ripple_max_radius">24dp</dimen>
+    <dimen name="switch_stroke_width">2dp</dimen>
+    <dimen name="switch_thumb_radius">10dp</dimen>
+    <dimen name="switch_track_width">2dp</dimen>
+    <dimen name="switch_width">86dp</dimen>
+    <dimen name="tab_nav_button_width">36dp</dimen>
+    <dimen name="tab_text_size">15sp</dimen>
+    <dimen name="tab_underline_height">5dp</dimen>
+    <dimen name="track_slider_bar_height">2dp</dimen>
+    <dimen name="track_slider_ripple_radius">20dp</dimen>
+    <dimen name="track_slider_thumb_radius">10dp</dimen>
+    <dimen name="venvy_video_des_item_text_size">14dp</dimen>
+    <dimen name="venvy_video_des_size">13dp</dimen>
+    <dimen name="venvy_video_dg_padding">50dp</dimen>
+    <dimen name="venvy_video_info_text_size">18dp</dimen>
+    <dimen name="venvy_video_load_text_size">16dp</dimen>
+    <dimen name="venvy_video_quality_text_size">15dp</dimen>
+    <dimen name="venvy_video_sdk_panel_height">48dp</dimen>
+    <dimen name="venvy_video_title_size">16dp</dimen>
+    <dimen name="venvy_video_title_text_size">16dp</dimen>
+    <integer name="circular_progress_max">100</integer>
+    <integer name="linear_progress_max">100</integer>
+    <integer name="tab_max_column">4</integer>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">VideoJjSdkDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sdk_video_close_gesture_string">Close Gesture</string>
+    <string name="sdk_video_connect_loading_text">Load the data in the...</string>
+    <string name="sdk_video_connect_server_text">Connect to the server...</string>
+    <string name="sdk_video_invalid_address_string">video address is invalid</string>
+    <string name="sdk_video_more_gestures_ban_string">Gestures to close</string>
+    <string name="sdk_video_more_gestures_open_string">Gestures to open</string>
+    <string name="sdk_video_more_state_string">gesture state</string>
+    <string name="sdk_video_open_gesture_string">Open Gesture</string>
+    <string name="sdk_video_quality_1080_string">1080P</string>
+    <string name="sdk_video_quality_720_string">720P</string>
+    <string name="sdk_video_quality_hd_string">HD Mode</string>
+    <string name="sdk_video_quality_sd_string">SD Mode</string>
+    <string name="sdk_video_quality_smooth_string">fluency</string>
+    <string name="sdk_video_quality_speed_string">topspeed</string>
+    <string name="sdk_video_quality_super_hd_string">Super Mode</string>
+    <string name="sdk_video_scale_default_string">default</string>
+    <string name="sdk_video_screen_locked_string">Screen has been locked</string>
+    <string name="sdk_video_screen_unlocked_string">Screen lock has been lifted</string>
+    <style name="venvy_iva_sdk_dialog_dg" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="venvy_iva_sdk_dialog_dg_style" parent="venvy_iva_sdk_dialog_dg">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="venvy_media_controller_SeekBar_Style" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/venvy_video_sdk_seek_progress_bar_bg</item>
+        <item name="android:indeterminateDrawable">@drawable/venvy_video_sdk_seek_progress_bar_bg
+</item>
+        <item name="android:minHeight">5dp</item>
+        <item name="android:maxHeight">5dp</item>
+        <item name="android:thumb">@drawable/venvy_video_sdk_media_controller_drag_bg</item>
+        <item name="android:thumbOffset">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:max">1000</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="venvy_media_controller_back_style" parent="@style/venvy_media_controller_panel_formal_style">
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/venvy_sdk_arrow_left_bg</item>
+    </style>
+    <style name="venvy_media_controller_lock_style" parent="@style/venvy_media_controller_panel_formal_style">
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/venvy_sdk_media_controller_unlock_bg</item>
+    </style>
+    <style name="venvy_media_controller_mass_style" parent="@style/venvy_media_controller_panel_formal_style">
+        <item name="android:background">@null</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/venvy_video_title_text_size</item>
+    </style>
+    <style name="venvy_media_controller_panel_formal_style">
+        <item name="android:layout_width">@dimen/venvy_video_sdk_panel_height</item>
+        <item name="android:layout_height">@dimen/venvy_video_sdk_panel_height</item>
+    </style>
+    <style name="venvy_media_controller_popup_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/venvy_video_buffer_text_color</item>
+        <item name="android:textSize">@dimen/venvy_video_info_text_size</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="venvy_media_controller_set_more_style" parent="@style/venvy_media_controller_panel_formal_style">
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/venvy_sdk_media_controller_set_more_bg</item>
+    </style>
+    <style name="venvy_media_controller_time_text_Style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:text">00:00</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="venvy_media_controller_title_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/venvy_video_title_text_size</item>
+    </style>
+    <style name="venvy_video_load_text_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:lineSpacingExtra">10dp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:textColor">@color/venvy_video_load_text_color</item>
+        <item name="android:textSize">@dimen/venvy_video_load_text_size</item>
+    </style>
+    <style name="venvy_video_quality_line_style">
+        <item name="android:layout_height">15dp</item>
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="venvy_video_quality_text_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/venvy_video_quality_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="venvy_videojj_style" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+    </style>
+</resources>
