@@ -30,6 +30,7 @@
 
     <string name="tv_pdf_read">Pdf阅读的Demo</string>
     <string name="tv_video_play">视频播放的Demo</string>
+    <string name="tv_audio_play">音频播放的Demo</string>
 
 
 </resources>

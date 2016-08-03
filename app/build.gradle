@@ -28,4 +28,7 @@ dependencies {
     compile files('libs/xUtils-2.6.14.jar')
     compile files('libs/universal-image-loader-1.9.5.jar')
     compile project(':videoJjlibrary')
+    compile project(':roundedimageview')
+    compile files('libs/utdid4all-1.0.4.jar')
+    compile files('libs/umeng-analytics-v6.0.1.jar')
 }

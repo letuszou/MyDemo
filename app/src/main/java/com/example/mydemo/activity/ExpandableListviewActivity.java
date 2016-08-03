@@ -9,7 +9,7 @@ import android.widget.Toast;
 import com.example.mydemo.R;
 import com.example.mydemo.adapter.MyExpandableListAdapter;
 
-public class ExpandableListviewActivity extends AppCompatActivity {
+public class ExpandableListviewActivity extends BaseActivity {
 
     private ExpandableListView list_expandable;
 

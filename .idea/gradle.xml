@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android-pdfview" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/circleimageview" />
+            <option value="$PROJECT_DIR$/roundedimageview" />
             <option value="$PROJECT_DIR$/videoJjlibrary" />
           </set>
         </option>
@@ -18,6 +20,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/android-pdfview" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/circleimageview" />
+            <option value="$PROJECT_DIR$/roundedimageview" />
             <option value="$PROJECT_DIR$/videoJjlibrary" />
           </set>
         </option>

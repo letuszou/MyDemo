@@ -15,7 +15,7 @@ import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import java.io.File;
 
-public class PdfviewActivity extends AppCompatActivity implements OnPageChangeListener {
+public class PdfviewActivity extends BaseActivity implements OnPageChangeListener {
     private int pageNumber = 1;
     private PDFView pdfview;
 

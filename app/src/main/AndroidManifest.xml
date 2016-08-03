@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!--Video++-->
+    <!-- Video++ -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
@@ -19,6 +19,7 @@
 
     <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于Bmob文件上传和下载 -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
 
     <application
         android:name=".MyApplication"
@@ -41,8 +42,16 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity android:name=".activity.ExpandableListviewActivity" />
         <activity android:name=".activity.PdfviewActivity" />
-        <activity android:name=".activity.VideoPlayActivity"/>
+        <activity android:name=".activity.VideoPlayActivity" />
+        <activity android:name=".activity.AudioPlayActivity" />
 
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57a165dde0f55aaf8a0000b3" />
+        <!-- 发布渠道(可以使用纯英文) -->
+        <!-- <meta-data android:value="Wandoujia" android:name="UMENG_CHANNEL"/> -->
+        <!-- <meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/> -->
+        <activity android:name=".activity.BaseActivity" />
 
 
     </application>
