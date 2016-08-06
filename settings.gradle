@@ -1,2 +1,2 @@
-include ':app', ':android-pdfview', ':circleimageview', ':roundedimageview'
+include ':app', ':android-pdfview', ':roundedimageview'
 include ':videoJjlibrary'

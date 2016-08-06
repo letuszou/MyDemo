@@ -1,4 +1,4 @@
-package com.example.mydemo.util;
+package com.example.mydemogather.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

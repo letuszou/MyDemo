@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mydemo.activity.VideoPlayActivity">
+    tools:context="com.example.mydemogather.activity.VideoPlayActivity">
 
 
     <cn.com.video.venvy.param.JjVideoView

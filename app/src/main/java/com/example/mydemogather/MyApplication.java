@@ -1,12 +1,9 @@
-package com.example.mydemo;
+package com.example.mydemogather;
 
 import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
-import android.os.Build;
-import android.os.StrictMode;
 
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;

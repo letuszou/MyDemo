@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "com.example.mydemo"
+        applicationId "com.example.mydemogather"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

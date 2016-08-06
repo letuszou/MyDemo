@@ -1,9 +1,8 @@
-package com.example.mydemo.activity;
+package com.example.mydemogather.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.mydemo.R;
 import com.umeng.analytics.MobclickAgent;
 
 public class BaseActivity extends AppCompatActivity {

@@ -31,6 +31,12 @@
     <string name="tv_pdf_read">Pdf阅读的Demo</string>
     <string name="tv_video_play">视频播放的Demo</string>
     <string name="tv_audio_play">音频播放的Demo</string>
+    <string name="tv_google_refresh">谷歌自带刷新的Demo</string>
+    <string name="tv_actionbar_one">自定义标题栏(基于布局文件)</string>
+
+    <string name="tv_actionbar_one_share">分享</string>
+    <string name="tv_actionbar_one_title">标题</string>
+    <string name="tv_actionbar_one_back">返回</string>
 
 
 </resources>

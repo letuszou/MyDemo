@@ -1,21 +1,11 @@
-package com.example.mydemo.activity;
+package com.example.mydemogather.activity;
 
-import android.app.ActionBar;
-import android.content.res.Configuration;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
 
-import com.example.mydemo.MyApplication;
-import com.example.mydemo.R;
-import com.example.mydemo.util.Config;
-import com.example.mydemo.util.NetUtils;
-import com.nostra13.universalimageloader.core.ImageLoader;
+import com.example.mydemogather.R;
+import com.example.mydemogather.util.Config;
+import com.example.mydemogather.util.NetUtils;
 
 import cn.com.video.venvy.param.JjVideoView;
 import cn.com.video.venvy.param.VideoJjMediaContoller;
@@ -48,7 +38,9 @@ public class VideoPlayActivity extends BaseActivity {
     private void init() {
         NetUtils.isWifiConnected(this);
         video_plus.setVideoJjAppKey(Config.VideoPlus_Api);//配置key
-        video_plus.setVideoJjPageName(Config.Package_name);//配置项目包名
+        //获得app包名
+        String pkName = VideoPlayActivity.this.getPackageName();
+        video_plus.setVideoJjPageName(pkName);//配置项目包名
         video_plus.setResourceVideo(Config.Video_Url);//开启播放
         video_plus.setVideoJjType(VIDEO_FROM);
         video_plus.setVideoJjTitle("这是个测试");

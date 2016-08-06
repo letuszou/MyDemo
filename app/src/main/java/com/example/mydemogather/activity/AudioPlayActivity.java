@@ -1,4 +1,4 @@
-package com.example.mydemo.activity;
+package com.example.mydemogather.activity;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.mydemo.R;
-import com.example.mydemo.util.Config;
+import com.example.mydemogather.R;
+import com.example.mydemogather.util.Config;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 public class AudioPlayActivity extends AppCompatActivity implements View.OnClickListener {

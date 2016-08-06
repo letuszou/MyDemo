@@ -1,14 +1,12 @@
-package com.example.mydemo.activity;
+package com.example.mydemogather.activity;
 
 
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import com.joanzapata.pdfview.listener.OnPageChangeListener;
-import com.example.mydemo.R;
-import com.example.mydemo.util.Config;
+import com.example.mydemogather.R;
+import com.example.mydemogather.util.Config;
 import com.joanzapata.pdfview.PDFView;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;

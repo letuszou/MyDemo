@@ -1,4 +1,4 @@
-package com.example.mydemo.receiver;
+package com.example.mydemogather.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
