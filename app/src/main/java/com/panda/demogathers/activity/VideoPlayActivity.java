@@ -1,12 +1,10 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 import android.os.Bundle;
 import android.view.WindowManager;
-
-import com.example.mydemogather.R;
-import com.example.mydemogather.util.Config;
-import com.example.mydemogather.util.NetUtils;
-
+import com.panda.demogathers.R;
+import com.panda.demogathers.util.Config;
+import com.panda.demogathers.util.NetUtils;
 import cn.com.video.venvy.param.JjVideoView;
 import cn.com.video.venvy.param.VideoJjMediaContoller;
 
@@ -49,4 +47,5 @@ public class VideoPlayActivity extends BaseActivity {
     }
 
 
+    //这个是基于video++的SDK
 }

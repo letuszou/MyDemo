@@ -1,11 +1,11 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import com.example.mydemogather.R;
+import com.panda.demogathers.R;
 
 public class IndexActivity extends BaseActivity implements View.OnClickListener {
 
@@ -16,6 +16,7 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener 
     private TextView tv_audio_play;
     private TextView tv_google_refresh;
     private TextView tv_actionbar_one;
+    private TextView tv_recycler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener 
         tv_audio_play = (TextView)findViewById(R.id.tv_audio_play);
         tv_google_refresh = (TextView)findViewById(R.id.tv_google_refresh);
         tv_actionbar_one = (TextView)findViewById(R.id.tv_actionbar_one);
+        tv_recycler = (TextView)findViewById(R.id.tv_recycler);
 
     }
 
@@ -47,6 +49,7 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener 
         tv_audio_play.setOnClickListener(this);
         tv_google_refresh.setOnClickListener(this);
         tv_actionbar_one.setOnClickListener(this);
+        tv_recycler.setOnClickListener(this);
 
     }
 
@@ -73,6 +76,9 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener 
                 break;
             case R.id.tv_actionbar_one:
                 startActivity(new Intent(IndexActivity.this,ActionbarOneActivity.class));
+                break;
+            case R.id.tv_recycler:
+                startActivity(new Intent(IndexActivity.this,RecyclerActivity.class));
                 break;
 
         }

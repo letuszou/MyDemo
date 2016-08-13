@@ -1,4 +1,4 @@
-package com.example.mydemogather.adapter;
+package com.panda.demogathers.adapter;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -11,7 +11,7 @@ import android.widget.ExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.mydemogather.R;
+import com.panda.demogathers.R;
 
 /**
  * Created by admin on 2016/7/31.

@@ -1,16 +1,10 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
-
-import com.example.mydemogather.R;
-import com.example.mydemogather.util.Config;
-
-import java.util.List;
+import com.panda.demogathers.R;
+import com.panda.demogathers.util.Config;
 
 public class GoogleRefreshActivity extends BaseActivity implements SwipeRefreshLayout.OnRefreshListener {
 
@@ -46,8 +40,8 @@ public class GoogleRefreshActivity extends BaseActivity implements SwipeRefreshL
 
     private void initView(){
         srl_google_refresh = (SwipeRefreshLayout)findViewById(R.id.srl_google_refresh);
-        srl_google_refresh.setOnRefreshListener(GoogleRefreshActivity.this);
-        srl_google_refresh.setColorScheme(getResources().getColor(android.R.color.holo_blue_bright), getResources().getColor(android.R.color.holo_green_light),
+        srl_google_refresh.setOnRefreshListener(this);
+        srl_google_refresh.setColorSchemeColors(getResources().getColor(android.R.color.holo_blue_bright), getResources().getColor(android.R.color.holo_green_light),
                 getResources().getColor(android.R.color.holo_orange_light), getResources().getColor(android.R.color.holo_red_light));
     }
 

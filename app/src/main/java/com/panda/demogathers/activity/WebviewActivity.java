@@ -1,9 +1,8 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.example.mydemogather.R;
+import com.panda.demogathers.R;
 
 public class WebviewActivity extends AppCompatActivity {
 

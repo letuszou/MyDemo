@@ -43,6 +43,8 @@ Demo的集合
 1修改 由于包名 app无法播放视频的bug
 2添加google自带的刷新功能
 3添加引入include的标题栏
+## 2016-8-13 ##
+添加Android RecyclerView替代listview和gridview的demo
 
   
 

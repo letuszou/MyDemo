@@ -1,12 +1,11 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
-
-import com.example.mydemogather.R;
-import com.example.mydemogather.adapter.MyExpandableListAdapter;
+import com.panda.demogathers.R;
+import com.panda.demogathers.adapter.MyExpandableListAdapter;
 
 public class ExpandableListviewActivity extends BaseActivity {
 

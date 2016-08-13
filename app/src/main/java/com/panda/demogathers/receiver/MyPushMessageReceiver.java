@@ -1,4 +1,4 @@
-package com.example.mydemogather.receiver;
+package com.panda.demogathers.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

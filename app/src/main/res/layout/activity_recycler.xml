@@ -8,10 +8,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".activity.IndexActivity">
+    tools:context="com.panda.demogathers.activity.RecyclerActivity">
 
     <TextView
-        android:id="@+id/tv_about"
+        android:id="@+id/tv_recycler_listview_s"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -19,13 +19,11 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="@string/tv_about"
+        android:text="@string/tv_recycler_listview_s"
         android:textColor="@color/white"
         android:textSize="16sp" />
-
-
     <TextView
-        android:id="@+id/tv_recycler"
+        android:id="@+id/tv_recycler_listview_h"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -33,12 +31,12 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="@string/tv_recycler"
+        android:text="@string/tv_recycler_listview_h"
         android:textColor="@color/white"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/tv_expand"
+        android:id="@+id/tv_recycler_gridview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -46,12 +44,11 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="@string/tv_expand"
+        android:text="@string/tv_recycler_gridview"
         android:textColor="@color/white"
         android:textSize="16sp" />
-
     <TextView
-        android:id="@+id/tv_pdf_read"
+        android:id="@+id/tv_recycler_strag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -59,12 +56,11 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="@string/tv_pdf_read"
+        android:text="@string/tv_recycler_strag"
         android:textColor="@color/white"
         android:textSize="16sp" />
-
     <TextView
-        android:id="@+id/tv_video_play"
+        android:id="@+id/tv_recycler_strager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -72,49 +68,9 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="@string/tv_video_play"
+        android:text="@string/tv_recycler_strager"
         android:textColor="@color/white"
         android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/tv_audio_play"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="@color/blue"
-        android:gravity="center_horizontal"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        android:text="@string/tv_audio_play"
-        android:textColor="@color/white"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/tv_google_refresh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="@color/blue"
-        android:gravity="center_horizontal"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        android:text="@string/tv_google_refresh"
-        android:textColor="@color/white"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/tv_actionbar_one"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="@color/blue"
-        android:gravity="center_horizontal"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        android:text="@string/tv_actionbar_one"
-        android:textColor="@color/white"
-        android:textSize="16sp" />
-
 
 
 </LinearLayout>

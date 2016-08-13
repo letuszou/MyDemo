@@ -1,4 +1,4 @@
-package com.example.mydemogather.util;
+package com.panda.demogathers.util;
 
 /**
  * Created by admin on 2016/7/31.

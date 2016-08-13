@@ -1,12 +1,12 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
 import com.joanzapata.pdfview.listener.OnPageChangeListener;
-import com.example.mydemogather.R;
-import com.example.mydemogather.util.Config;
+import com.panda.demogathers.R;
+import com.panda.demogathers.util.Config;
 import com.joanzapata.pdfview.PDFView;
 import com.lidroid.xutils.exception.HttpException;
 import com.lidroid.xutils.http.ResponseInfo;

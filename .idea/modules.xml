@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-pdfview/android-pdfview.iml" filepath="$PROJECT_DIR$/android-pdfview/android-pdfview.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/circleimageview/circleimageview.iml" filepath="$PROJECT_DIR$/circleimageview/circleimageview.iml" />
       <module fileurl="file://$PROJECT_DIR$/roundedimageview/roundedimageview.iml" filepath="$PROJECT_DIR$/roundedimageview/roundedimageview.iml" />
       <module fileurl="file://$PROJECT_DIR$/videoJjlibrary/videoJjlibrary.iml" filepath="$PROJECT_DIR$/videoJjlibrary/videoJjlibrary.iml" />
     </modules>

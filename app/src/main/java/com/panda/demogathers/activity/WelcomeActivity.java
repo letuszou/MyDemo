@@ -1,8 +1,8 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import com.example.mydemogather.util.Config;
+import com.panda.demogathers.util.Config;
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.update.BmobUpdateAgent;
 

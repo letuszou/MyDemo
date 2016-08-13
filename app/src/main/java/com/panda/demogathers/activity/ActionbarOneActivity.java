@@ -1,4 +1,4 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 
 import android.os.Bundle;
@@ -6,8 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.mydemogather.R;
+import com.panda.demogathers.R;
 
 public class ActionbarOneActivity extends AppCompatActivity implements View.OnClickListener{
 

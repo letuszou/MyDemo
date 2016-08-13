@@ -1,4 +1,4 @@
-package com.example.mydemogather;
+package com.panda.demogathers;
 
 import android.app.ActivityManager;
 import android.app.Application;

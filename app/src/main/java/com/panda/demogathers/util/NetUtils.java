@@ -1,4 +1,4 @@
-package com.example.mydemogather.util;
+package com.panda.demogathers.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

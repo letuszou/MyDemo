@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mydemogather">
+    package="com.panda.demogathers">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -21,28 +21,28 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name=".MyApplication"
+        android:name="com.panda.demogathers.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/demo_icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.WelcomeActivity">
+        <activity android:name="com.panda.demogathers.activity.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.AboutActivity" />
-        <activity android:name=".activity.IndexActivity" />
+        <activity android:name="com.panda.demogathers.activity.AboutActivity" />
+        <activity android:name="com.panda.demogathers.activity.IndexActivity" />
         <activity
             android:name="cn.bmob.v3.update.UpdateDialogActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity android:name=".activity.ExpandableListviewActivity" />
-        <activity android:name=".activity.PdfviewActivity" />
-        <activity android:name=".activity.VideoPlayActivity" />
-        <activity android:name=".activity.AudioPlayActivity" />
+        <activity android:name="com.panda.demogathers.activity.ExpandableListviewActivity" />
+        <activity android:name="com.panda.demogathers.activity.PdfviewActivity" />
+        <activity android:name="com.panda.demogathers.activity.VideoPlayActivity" />
+        <activity android:name="com.panda.demogathers.activity.AudioPlayActivity" />
 
         <meta-data
             android:name="UMENG_APPKEY"
@@ -51,11 +51,14 @@
         <!-- <meta-data android:value="Wandoujia" android:name="UMENG_CHANNEL"/> -->
         <!-- <meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/> -->
         <!-- <meta-data android:value="baidu" android:name="UMENG_CHANNEL"/> -->
-        <activity android:name=".activity.BaseActivity" />
-        <activity android:name=".activity.GoogleRefreshActivity" />
-        <activity android:name=".activity.ActionbarOneActivity" />
-
-
+        <activity android:name="com.panda.demogathers.activity.BaseActivity" />
+        <activity android:name="com.panda.demogathers.activity.GoogleRefreshActivity" />
+        <activity android:name="com.panda.demogathers.activity.ActionbarOneActivity" />
+        <activity android:name="com.panda.demogathers.activity.RecyclerListViewActivity" />
+        <activity android:name="com.panda.demogathers.activity.RecyclerActivity" />
+        <activity android:name="com.panda.demogathers.activity.RecyclerGridviewActivity" />
+        <activity android:name="com.panda.demogathers.activity.RecyclerStagActivity" />
+        <activity android:name="com.panda.demogathers.activity.RecyclerStagverActivity"></activity>
     </application>
 
 </manifest>

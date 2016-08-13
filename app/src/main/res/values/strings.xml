@@ -33,6 +33,13 @@
     <string name="tv_audio_play">音频播放的Demo</string>
     <string name="tv_google_refresh">谷歌自带刷新的Demo</string>
     <string name="tv_actionbar_one">自定义标题栏(基于布局文件)</string>
+    <string name="tv_recycler">RecyclerView的demo</string>
+    <string name="tv_recycler_listview_s">RecyclerView显示listview竖直</string>
+    <string name="tv_recycler_listview_h">RecyclerView显示listview横向</string>
+    <string name="tv_recycler_gridview">RecyclerView显示gridview</string>
+    <string name="tv_recycler_strag">RecyclerView显示瀑布流横向</string>
+    <string name="tv_recycler_strager">RecyclerView显示瀑布流竖直</string>
+
 
     <string name="tv_actionbar_one_share">分享</string>
     <string name="tv_actionbar_one_title">标题</string>

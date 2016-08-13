@@ -1,4 +1,4 @@
-package com.example.mydemogather.activity;
+package com.panda.demogathers.activity;
 
 
 import android.app.AlertDialog;
@@ -13,9 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.mydemogather.R;
-
+import com.panda.demogathers.R;
 import cn.bmob.v3.listener.BmobUpdateListener;
 import cn.bmob.v3.update.BmobUpdateAgent;
 import cn.bmob.v3.update.UpdateResponse;

@@ -16,4 +16,7 @@
     <color name="gray_3">#999999</color>
     <color name="gray_4">#c3c5c9</color>
     <color name="gray_5">#eeefff</color>
+    <color name="orange_1">#FF9900</color>
+    <color name="orange_2">#FD5204</color>
+    <color name="orange_3">#FD5904</color>
 </resources>
