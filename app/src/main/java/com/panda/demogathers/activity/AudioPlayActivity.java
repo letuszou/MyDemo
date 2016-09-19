@@ -48,6 +48,7 @@ public class AudioPlayActivity extends AppCompatActivity implements View.OnClick
         iv_play_audio.setOnClickListener(this);
     }
 
+	//注意音频播放尽量使用mp3格式 如果使用wmv格式部分手机会报错  自带的兼容性不好
     private void init() {
         ImageLoader.getInstance().displayImage(Config.Audio_Image_Url, iv_auido_play_image);
         mediaPlayer = new MediaPlayer();

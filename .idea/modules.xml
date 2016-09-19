@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/android-pdfview/android-pdfview.iml" filepath="$PROJECT_DIR$/android-pdfview/android-pdfview.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendarcard/calendarcard.iml" filepath="$PROJECT_DIR$/calendarcard/calendarcard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googleDateTimePickers/googleDateTimePickers.iml" filepath="$PROJECT_DIR$/googleDateTimePickers/googleDateTimePickers.iml" />
       <module fileurl="file://$PROJECT_DIR$/roundedimageview/roundedimageview.iml" filepath="$PROJECT_DIR$/roundedimageview/roundedimageview.iml" />
       <module fileurl="file://$PROJECT_DIR$/videoJjlibrary/videoJjlibrary.iml" filepath="$PROJECT_DIR$/videoJjlibrary/videoJjlibrary.iml" />
     </modules>

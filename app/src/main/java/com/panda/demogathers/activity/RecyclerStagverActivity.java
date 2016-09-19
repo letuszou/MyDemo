@@ -5,6 +5,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 import com.panda.demogathers.R;
 import com.panda.demogathers.adapter.RecyclerStagAdapter;
@@ -36,7 +37,6 @@ public class RecyclerStagverActivity extends BaseActivity {
 
     private void initView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.rv_view_stagver);
-
     }
 
     private void init() {

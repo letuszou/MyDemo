@@ -31,7 +31,7 @@ public class WelcomeActivity extends BaseActivity {
 
 
     private void init(){
-        startActivity(new Intent(WelcomeActivity.this,IndexActivity.class));
+        startActivity(new Intent(WelcomeActivity.this,HomeActivity.class));
         finish();
 
     }

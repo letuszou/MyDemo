@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\res\\merged\\release\\drawable\\card_item_bg.xml",
+        "source": "H:\\workSpace\\MyDemo\\calendarcard\\src\\main\\res\\drawable\\card_item_bg.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\res\\merged\\release\\drawable\\card_grid_bg.xml",
+        "source": "H:\\workSpace\\MyDemo\\calendarcard\\src\\main\\res\\drawable\\card_grid_bg.xml"
+    }
+]

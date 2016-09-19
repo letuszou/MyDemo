@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3$Generated" generated="true"><source path="H:\workSpace\MyDemo\calendarcard\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\res"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="H:\workSpace\MyDemo\calendarcard\src\androidTest\res"/><source path="H:\workSpace\MyDemo\calendarcard\build\generated\res\rs\androidTest\debug"/><source path="H:\workSpace\MyDemo\calendarcard\build\generated\res\resValues\androidTest\debug"/></dataSet><dataSet config="21.0.3" from-dependency="true" generated-set="21.0.3$Generated"><source path="H:\workSpace\MyDemo\calendarcard\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\res"/></dataSet><dataSet config="debug" from-dependency="true" generated-set="debug$Generated"><source path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res"><file name="card_grid_bg" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\drawable\card_grid_bg.xml" qualifiers="" type="drawable"/><file name="card_item_bg" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\drawable\card_item_bg.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\drawable-hdpi-v4\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\drawable-mdpi-v4\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\drawable-xhdpi-v4\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\drawable-xxhdpi-v4\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="card_cell" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\layout\card_cell.xml" qualifiers="" type="layout"/><file name="card_item_simple" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\layout\card_item_simple.xml" qualifiers="" type="layout"/><file name="card_row" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\layout\card_row.xml" qualifiers="" type="layout"/><file name="card_view" path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\layout\card_view.xml" qualifiers="" type="layout"/><file path="H:\workSpace\MyDemo\calendarcard\build\intermediates\bundles\debug\res\values\values.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><style name="CalendarCard.Days">
+        <item name="android:padding">0dp</item>
+    </style><color name="grid_border">#FFC6C6C6</color><color name="grid_bg">#FFFFFFFF</color><style name="CalendarCard.Root">
+        <item name="android:padding">10dp</item>
+    </style><string name="app_name">calendar-card</string><style name="CalendarCard.Title">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="CalendarCard.Day">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="CalendarCard.Grid">
+        <item name="android:background">@drawable/card_grid_bg</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style><dimen name="activity_horizontal_margin">16dp</dimen><style name="CalendarCard">
+        
+    </style><style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="CalendarCard.Cell">
+        <item name="android:background">@drawable/card_item_bg</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style></file></source></dataSet><dataSet config="main" generated-set="main$Generated"><source path="H:\workSpace\MyDemo\calendarcard\src\androidTest\res"/><source path="H:\workSpace\MyDemo\calendarcard\build\generated\res\rs\androidTest\debug"/><source path="H:\workSpace\MyDemo\calendarcard\build\generated\res\resValues\androidTest\debug"/></dataSet><mergedItems/></merger>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:id="@+id/rl_fragment_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13.4dp">
+
+        <EditText
+            android:id="@+id/et_username_login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/et_username_fragment" />
+
+        <EditText
+            android:id="@+id/et_password_login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/et_username_login"
+            android:hint="@string/et_password_fragment"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@+id/et_password_login"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="@string/btn_login" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="65dp" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="@string/btn_register" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_margin="13.4dp"
+        android:id="@+id/rl_fragment_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+
+        <EditText
+            android:id="@+id/et_username_register"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/et_username_fragment" />
+
+        <EditText
+            android:id="@+id/et_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/et_username_register"
+            android:hint="@string/et_password_fragment"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/et_email_register"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/et_password_register"
+            android:hint="@string/et_email_register"
+            android:inputType="textEmailAddress" />
+
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/btn_register_register"
+                android:layout_below="@+id/et_email_register"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/btn_register" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_fragment_logined"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/tv_fragment_logined"
+            android:text="@string/tv_fragment_logined"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</RelativeLayout>

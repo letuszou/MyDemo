@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\res\\merged\\release\\layout\\card_cell.xml",
+        "source": "H:\\workSpace\\MyDemo\\calendarcard\\src\\main\\res\\layout\\card_cell.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\res\\merged\\release\\layout\\card_view.xml",
+        "source": "H:\\workSpace\\MyDemo\\calendarcard\\src\\main\\res\\layout\\card_view.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\res\\merged\\release\\layout\\card_item_simple.xml",
+        "source": "H:\\workSpace\\MyDemo\\calendarcard\\src\\main\\res\\layout\\card_item_simple.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\res\\merged\\release\\layout\\card_row.xml",
+        "source": "H:\\workSpace\\MyDemo\\calendarcard\\src\\main\\res\\layout\\card_row.xml"
+    }
+]

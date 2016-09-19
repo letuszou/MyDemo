@@ -7,45 +7,43 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* Thumbs.db
 * ic_launcher-web.png
 * proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
 
 Moved Files:
 ------------
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => videoJjlibrary\src\main\AndroidManifest.xml
-* assets\ => videoJjlibrary\src\main\assets
-* libs\arm64-v8a\libijkffmpeg.so => videoJjlibrary\src\main\jniLibs\arm64-v8a\libijkffmpeg.so
-* libs\arm64-v8a\libijkplayer.so => videoJjlibrary\src\main\jniLibs\arm64-v8a\libijkplayer.so
-* libs\arm64-v8a\libijksdl.so => videoJjlibrary\src\main\jniLibs\arm64-v8a\libijksdl.so
-* libs\arm64-v8a\libVideoSdk_gif.so => videoJjlibrary\src\main\jniLibs\arm64-v8a\libVideoSdk_gif.so
-* libs\arm64-v8a\libVideoSdk_gif_surface.so => videoJjlibrary\src\main\jniLibs\arm64-v8a\libVideoSdk_gif_surface.so
-* libs\arm64-v8a\libVideoSdkMd5.so => videoJjlibrary\src\main\jniLibs\arm64-v8a\libVideoSdkMd5.so
-* libs\armeabi-v7a\libijkffmpeg.so => videoJjlibrary\src\main\jniLibs\armeabi-v7a\libijkffmpeg.so
-* libs\armeabi-v7a\libijkplayer.so => videoJjlibrary\src\main\jniLibs\armeabi-v7a\libijkplayer.so
-* libs\armeabi-v7a\libijksdl.so => videoJjlibrary\src\main\jniLibs\armeabi-v7a\libijksdl.so
-* libs\armeabi-v7a\libVideoSdk_gif.so => videoJjlibrary\src\main\jniLibs\armeabi-v7a\libVideoSdk_gif.so
-* libs\armeabi-v7a\libVideoSdk_gif_surface.so => videoJjlibrary\src\main\jniLibs\armeabi-v7a\libVideoSdk_gif_surface.so
-* libs\armeabi-v7a\libVideoSdkMd5.so => videoJjlibrary\src\main\jniLibs\armeabi-v7a\libVideoSdkMd5.so
-* libs\armeabi\libijkffmpeg.so => videoJjlibrary\src\main\jniLibs\armeabi\libijkffmpeg.so
-* libs\armeabi\libijkplayer.so => videoJjlibrary\src\main\jniLibs\armeabi\libijkplayer.so
-* libs\armeabi\libijksdl.so => videoJjlibrary\src\main\jniLibs\armeabi\libijksdl.so
-* libs\armeabi\libVideoSdk_gif.so => videoJjlibrary\src\main\jniLibs\armeabi\libVideoSdk_gif.so
-* libs\armeabi\libVideoSdk_gif_surface.so => videoJjlibrary\src\main\jniLibs\armeabi\libVideoSdk_gif_surface.so
-* libs\armeabi\libVideoSdkMd5.so => videoJjlibrary\src\main\jniLibs\armeabi\libVideoSdkMd5.so
-* libs\videojj_iva_4.0.jar => videoJjlibrary\libs\videojj_iva_4.0.jar
-* libs\videojj_sdk.jar => videoJjlibrary\libs\videojj_sdk.jar
-* libs\x86\libijkffmpeg.so => videoJjlibrary\src\main\jniLibs\x86\libijkffmpeg.so
-* libs\x86\libijkplayer.so => videoJjlibrary\src\main\jniLibs\x86\libijkplayer.so
-* libs\x86\libijksdl.so => videoJjlibrary\src\main\jniLibs\x86\libijksdl.so
-* libs\x86\libVideoSdk_gif.so => videoJjlibrary\src\main\jniLibs\x86\libVideoSdk_gif.so
-* libs\x86\libVideoSdk_gif_surface.so => videoJjlibrary\src\main\jniLibs\x86\libVideoSdk_gif_surface.so
-* libs\x86\libVideoSdkMd5.so => videoJjlibrary\src\main\jniLibs\x86\libVideoSdkMd5.so
-* res\ => videoJjlibrary\src\main\res\
-* src\ => videoJjlibrary\src\main\java\
+* AndroidManifest.xml => googleDateTimePickers\src\main\AndroidManifest.xml
+* res\ => googleDateTimePickers\src\main\res\
+* src\ => googleDateTimePickers\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
 
 Next Steps:
 -----------

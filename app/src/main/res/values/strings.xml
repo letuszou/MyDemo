@@ -31,8 +31,6 @@
     <string name="tv_pdf_read">Pdf阅读的Demo</string>
     <string name="tv_video_play">视频播放的Demo</string>
     <string name="tv_audio_play">音频播放的Demo</string>
-    <string name="tv_google_refresh">谷歌自带刷新的Demo</string>
-    <string name="tv_actionbar_one">自定义标题栏(基于布局文件)</string>
     <string name="tv_recycler">RecyclerView的demo</string>
     <string name="tv_recycler_listview_s">RecyclerView显示listview竖直</string>
     <string name="tv_recycler_listview_h">RecyclerView显示listview横向</string>
@@ -40,10 +38,27 @@
     <string name="tv_recycler_strag">RecyclerView显示瀑布流横向</string>
     <string name="tv_recycler_strager">RecyclerView显示瀑布流竖直</string>
 
+    <string name="tv_data">时间选择器</string>
+    <string name="tv_data_picker">原生pick日期选择器</string>
+    <string name="tv_data_calendar_card">日历展示形式</string>
+    <string name="tv_data_google_calendar">仿google日历</string>
+
+    <string name="select_calendar_card">选择的日期是: %s</string>
+
 
     <string name="tv_actionbar_one_share">分享</string>
     <string name="tv_actionbar_one_title">标题</string>
     <string name="tv_actionbar_one_back">返回</string>
+
+
+    <string name="tv_activity_home">首页</string>
+    <string name="tv_activity_me">我的</string>
+    <string name="et_username_fragment">请输入你的用户名</string>
+    <string name="et_password_fragment">请输入你的密码</string>
+    <string name="et_email_register">请输入你的电子邮箱</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="tv_fragment_logined">已经登录，谢谢</string>
 
 
 </resources>

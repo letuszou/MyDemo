@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "H:\\workSpace\\MyDemo\\googleDateTimePickers\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\done_text_color.xml",
+        "source": "H:\\workSpace\\MyDemo\\googleDateTimePickers\\build\\intermediates\\bundles\\debug\\res\\color\\done_text_color.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\googleDateTimePickers\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\date_picker_selector.xml",
+        "source": "H:\\workSpace\\MyDemo\\googleDateTimePickers\\build\\intermediates\\bundles\\debug\\res\\color\\date_picker_selector.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\googleDateTimePickers\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\date_picker_year_selector.xml",
+        "source": "H:\\workSpace\\MyDemo\\googleDateTimePickers\\build\\intermediates\\bundles\\debug\\res\\color\\date_picker_year_selector.xml"
+    }
+]
