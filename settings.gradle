@@ -1,4 +1,3 @@
 include ':app', ':android-pdfview', ':roundedimageview'
 include ':videoJjlibrary'
 include ':calendarcard'
-include ':googleDateTimePickers'

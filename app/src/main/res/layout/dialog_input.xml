@@ -18,11 +18,7 @@
 
 
     <EditText
-
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_margin="15dp"
         android:id="@+id/et_dialog_email_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +34,7 @@
         style="@style/btn_blue"
         android:id="@+id/btn_dialog_email_confirm"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:text="@string/btn_about_confirm"
         android:layout_below="@+id/et_dialog_email_input"
         android:layout_alignLeft="@+id/et_dialog_email_input"
@@ -48,7 +44,7 @@
         style="@style/btn_blue"
         android:id="@+id/btn_dialog_email_cancle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:text="@string/tv_about_cancle"
         android:layout_alignTop="@+id/btn_dialog_email_confirm"
         android:layout_alignRight="@+id/et_dialog_email_input"
@@ -56,10 +52,7 @@
 
     <TextView
         android:gravity="center"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
+        android:layout_margin="15dp"
         android:layout_below="@+id/btn_dialog_email_confirm"
         android:textSize="16sp"
         android:textColor="@color/gray_3"

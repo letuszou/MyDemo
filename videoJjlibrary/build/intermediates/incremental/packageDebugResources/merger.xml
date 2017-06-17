@@ -47,7 +47,7 @@
     </style><style name="venvy_videojj_style" parent="@android:style/Theme.NoTitleBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowNoTitle">true</item>
-        <!-- 无标题 -->
+        
     </style><style name="venvy_media_controller_popup_text_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

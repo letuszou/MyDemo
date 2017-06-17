@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "outputFile": "H:\\workSpace\\MyDemo\\calendarcard\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {

@@ -5,18 +5,14 @@
         <item name="android:textColor">@color/ampm_text_color</item>
         <item name="android:textStyle">bold</item>
     </style><style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style><style name="time_label">
         <item name="android:textSize">@dimen/time_label_size</item>
         <item name="android:textColor">@color/numbers_text_color</item>
     </style><style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style></file><file path="H:\workSpace\MyDemo\googleDateTimePickers\src\main\res\values-land\dimens.xml" qualifiers="land"><dimen name="selected_date_day_size">100dp</dimen><dimen name="selected_date_month_size">30dp</dimen><dimen name="left_side_width">250dip</dimen><dimen name="dialog_height">200dip</dimen><dimen name="selected_date_year_size">30dp</dimen></file><file path="H:\workSpace\MyDemo\googleDateTimePickers\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="H:\workSpace\MyDemo\googleDateTimePickers\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
-        <!-- API 11 theme customizations can go here. -->
+        
     </style></file><file path="H:\workSpace\MyDemo\googleDateTimePickers\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <!-- API 14 theme customizations can go here. -->
+        
     </style></file></source><source path="H:\workSpace\MyDemo\googleDateTimePickers\build\generated\res\rs\debug"/><source path="H:\workSpace\MyDemo\googleDateTimePickers\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="H:\workSpace\MyDemo\googleDateTimePickers\src\debug\res"/></dataSet><mergedItems/></merger>

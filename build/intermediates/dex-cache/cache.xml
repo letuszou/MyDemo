@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\MyDemo\videoJjlibrary\unspecified\jars\libs\videojj_sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="737d8dbe05d36b28713e5ee9c6b4b76bad3d21b4">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\videojj_sdk_5afa9d950e32e0a9d088af767d571d47e4a93a4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_298871711343b32f8dfa45fb4e5d2786ab14ec0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\MyDemo\calendarcard\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69bc2e6bbf04ee5758ca8fb48da2a4f164a998b6">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\MyDemo-calendarcard-unspecified_c3858e72efb42bb5dae3b9e33c40c220b5f10115.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_b4711916a690ac8254fb94013c673e43464ff331.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\MyDemo\roundedimageview\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e34abddd8c66a592cec9893ea4c2b108940a76ca">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\MyDemo-roundedimageview-unspecified_3197357c831dec7e54c4e36a49cd1059958122ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\libs\umeng-analytics-v6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\umeng-analytics-v6.0.1_375d1febaeec2c52f64e0b7b16312b7bacbe61fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\develop\Android\studioSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_b6dd2f47570d227cab482c58c08af524ad06698d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_a5a180179cd076ae31f93f6200d90e85e05b6b88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_14c1af59b06d48cf430bf1460b726d468977aff9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_ac40d28775ed2929097643873fb195c71e7a5461.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\libs\utdid4all-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\utdid4all-1.0.4_71ea62005baa64ff357c649c366cf524ffa57619.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.1\2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0\gson-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\gson-2.8.1_66edbecc05d3763de2d2048076cabae319682f44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\MyDemo\android-pdfview\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a5bc8e5a560c7c23e21382d8f6f85fbf94e516a7">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\MyDemo-android-pdfview-unspecified_71857c369e0479b4882269898029b472d37929bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14_aa3613c312c51128dbccc5bfefd0a99273206088.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_8ed42737792c87452ea16057cbca1fba2cf35c4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\MyDemo\videoJjlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a2536c8f419a0bb7fd4dab71a7db67d6db014d2">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\MyDemo-videoJjlibrary-unspecified_a04ce1cada38f022630b5115adbb98824d354f8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_c873fe26bca4c2ee44c7960a1a341af34f089c36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\MyDemo\videoJjlibrary\unspecified\jars\libs\videojj_iva_4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f703dbd3ad6310b3818d32ef2f4b9a7afa39da7c">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\videojj_iva_4.0_f7ef04084c6bb0bbffc4ed0520775fef1c679c97.jar" />
+    </item>
+
+</items>

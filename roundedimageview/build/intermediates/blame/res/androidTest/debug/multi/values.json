@@ -1,194 +1,194 @@
 [
     {
-        "outputFile": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "outputFile": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1025,
+                    "startOffset": 1103,
                     "endColumn": 44,
-                    "endOffset": 1065
+                    "endOffset": 1143
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1025,
+                        "startOffset": 1103,
                         "endColumn": 44,
-                        "endOffset": 1065
+                        "endOffset": 1143
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1070,
+                    "startOffset": 1148,
                     "endColumn": 68,
-                    "endOffset": 1134
+                    "endOffset": 1212
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1070,
+                        "startOffset": 1148,
                         "endColumn": 68,
-                        "endOffset": 1134
+                        "endOffset": 1212
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1139,
+                    "startOffset": 1217,
                     "endColumn": 93,
-                    "endOffset": 1228
+                    "endOffset": 1306
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1139,
+                        "startOffset": 1217,
                         "endColumn": 93,
-                        "endOffset": 1228
+                        "endOffset": 1306
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1233,
+                    "startOffset": 1311,
                     "endColumn": 70,
-                    "endOffset": 1299
+                    "endOffset": 1377
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1233,
+                        "startOffset": 1311,
                         "endColumn": 70,
-                        "endOffset": 1299
+                        "endOffset": 1377
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1304,
+                    "startOffset": 1382,
                     "endColumn": 203,
-                    "endOffset": 1503
+                    "endOffset": 1581
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1304,
+                        "startOffset": 1382,
                         "endColumn": 203,
-                        "endOffset": 1503
+                        "endOffset": 1581
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1508,
+                    "startOffset": 1586,
                     "endColumn": 81,
-                    "endOffset": 1585
+                    "endOffset": 1663
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 1508,
+                        "startOffset": 1586,
                         "endColumn": 81,
-                        "endOffset": 1585
+                        "endOffset": 1663
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1590,
+                    "startOffset": 1668,
                     "endColumn": 73,
-                    "endOffset": 1659
+                    "endOffset": 1737
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 1590,
+                        "startOffset": 1668,
                         "endColumn": 73,
-                        "endOffset": 1659
+                        "endOffset": 1737
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1664,
+                    "startOffset": 1742,
                     "endColumn": 111,
-                    "endOffset": 1771
+                    "endOffset": 1849
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1664,
+                        "startOffset": 1742,
                         "endColumn": 111,
-                        "endOffset": 1771
+                        "endOffset": 1849
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1776,
+                    "startOffset": 1854,
                     "endColumn": 73,
-                    "endOffset": 1845
+                    "endOffset": 1923
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1776,
+                        "startOffset": 1854,
                         "endColumn": 73,
-                        "endOffset": 1845
+                        "endOffset": 1923
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1850,
+                    "startOffset": 1928,
                     "endColumn": 115,
-                    "endOffset": 1961
+                    "endOffset": 2039
                 },
                 "from": {
                     "file": "H:\\workSpace\\MyDemo\\roundedimageview\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1850,
+                        "startOffset": 1928,
                         "endColumn": 115,
-                        "endOffset": 1961
+                        "endOffset": 2039
                     }
                 }
             }

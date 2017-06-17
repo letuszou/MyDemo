@@ -10,7 +10,7 @@
     </style>
 
     <style name="tv_dialog_title">
-        <item name="android:background">@color/bg_open_red</item>
+        <item name="android:background">@color/colorPrimary</item>
         <item name="android:textColor">#ffffff</item>
     </style>
 

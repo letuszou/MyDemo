@@ -2,8 +2,8 @@
     <string name="app_name">程序员的Demo集合</string>
 
     <string name="tv_about">关于这个app</string>
-    <string name="tv_about_des">这个有许多Android开发的demo,如果有需要的可以联系letuszou@126.com获取源码</string>
-    <string name="tv_about_send">点击发送电子邮件,索取源码</string>
+    <string name="tv_about_des">搜索公众号[kindle书社]---回复测试源码</string>
+    <string name="tv_about_send">索取源码</string>
     <string name="tv_about_input">输入您有效的电子邮件</string>
     <string name="tv_about_confirm">调用手机可用的发送邮件的app</string>
     <string name="btn_about_confirm">确认发送</string>
@@ -28,6 +28,7 @@
     <string name="slide_switch_view">自定义View实现(可滑动)</string>
 
 
+    <string name="tv_do">功能相关</string>
     <string name="tv_pdf_read">Pdf阅读的Demo</string>
     <string name="tv_video_play">视频播放的Demo</string>
     <string name="tv_audio_play">音频播放的Demo</string>
@@ -41,10 +42,13 @@
     <string name="tv_data">时间选择器</string>
     <string name="tv_data_picker">原生pick日期选择器</string>
     <string name="tv_data_calendar_card">日历展示形式</string>
-    <string name="tv_data_google_calendar">仿google日历</string>
+    <string name="tv_data_calendar">安卓自带日历一</string>
+    <string name="tv_data_calendar2">安卓自带日历二</string>
 
     <string name="select_calendar_card">选择的日期是: %s</string>
 
+    <string name="tv_send_code">验证码相关</string>
+    <string name="tv_code_sixty">验证码倒计时60s</string>
 
     <string name="tv_actionbar_one_share">分享</string>
     <string name="tv_actionbar_one_title">标题</string>

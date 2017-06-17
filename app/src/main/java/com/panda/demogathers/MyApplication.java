@@ -19,6 +19,7 @@ import com.nostra13.universalimageloader.utils.StorageUtils;
 import java.io.File;
 import java.util.List;
 
+
 /**
  * Created by admin on 2016/8/1.
  */
@@ -35,7 +36,10 @@ public class MyApplication extends Application {
 
         initImageOptions();
         initImageLoader(getApplicationContext());
+        initConfig();
+    }
 
+    private void initConfig(){
 
 
     }

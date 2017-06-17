@@ -1,11 +1,11 @@
 [
     {
-        "merged": "H:\\workSpace\\MyDemo\\videoJjlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\venvy_video_sdk_seek_progress_bar_secon_bg.9.png",
-        "source": "H:\\workSpace\\MyDemo\\videoJjlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\venvy_video_sdk_seek_progress_bar_secon_bg.9.png"
-    },
-    {
         "merged": "H:\\workSpace\\MyDemo\\videoJjlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\venvy_iva_sdk_webview_load_bg.xml",
         "source": "H:\\workSpace\\MyDemo\\videoJjlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\venvy_iva_sdk_webview_load_bg.xml"
+    },
+    {
+        "merged": "H:\\workSpace\\MyDemo\\videoJjlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\venvy_video_sdk_seek_progress_bar_secon_bg.9.png",
+        "source": "H:\\workSpace\\MyDemo\\videoJjlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\venvy_video_sdk_seek_progress_bar_secon_bg.9.png"
     },
     {
         "merged": "H:\\workSpace\\MyDemo\\videoJjlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\venvy_video_sdk_seek_progress_bar_threw_bg.9.png",

@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.panda.demogathers">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Required -->
+    <permission
+        android:name="com.panda.demogathers.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- Required -->
+    <uses-permission android:name="com.panda.demogathers.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
 
     <!-- Video++ -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -15,10 +28,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于Bmob文件上传和下载 -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:name=".MyApplication"
@@ -35,7 +45,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.AboutActivity" />
-        <activity android:name=".activity.IndexActivity" />
         <activity
             android:name="cn.bmob.v3.update.UpdateDialogActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
@@ -47,17 +56,20 @@
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="57a165dde0f55aaf8a0000b3" />
-        <!--<meta-data-->
-            <!--android:name="UMENG_CHANNEL"-->
-            <!--android:value="smartisan" />-->
+        <!-- <meta-data -->
+        <!-- android:name="UMENG_CHANNEL" -->
+        <!-- android:value="smartisan" /> -->
+
 
         <!-- 发布渠道(可以使用纯英文) -->
         <!-- <meta-data android:value="yuansheng" android:name="UMENG_CHANNEL"/> -->
-         <meta-data android:value="update" android:name="UMENG_CHANNEL"/>
+        <!--<meta-data-->
+            <!--android:name="UMENG_CHANNEL"-->
+            <!--android:value="update" />-->
          <!--<meta-data android:value="360shoujizhushou" android:name="UMENG_CHANNEL"/>-->
-         <!--<meta-data android:value="baidu" android:name="UMENG_CHANNEL"/>-->
-        <!--<meta-data android:value="yingyongbao" android:name="UMENG_CHANNEL"/>-->
-
+         <meta-data android:value="baidu" android:name="UMENG_CHANNEL"/>
+         <!--<meta-data android:value="yingyongbao" android:name="UMENG_CHANNEL"/>-->
+         <!--<meta-data android:value="smartisan" android:name="UMENG_CHANNEL"/>-->
 
         <activity android:name=".activity.BaseActivity" />
         <activity android:name=".activity.RecyclerListViewActivity" />
@@ -66,10 +78,21 @@
         <activity android:name=".activity.RecyclerStagActivity" />
         <activity android:name=".activity.RecyclerStagverActivity" />
         <activity android:name=".activity.HomeActivity" />
-        <activity android:name=".activity.DataActivity" />
-        <activity android:name=".activity.DataPickActivity" />
-        <activity android:name=".activity.CalendarCardActivity" />
-        <activity android:name=".activity.DataGoogleActivity"/>
+        <activity android:name=".activity.SendCodeActivity" />
+
+
+
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:process=":multiprocess"
+            tools:node="replace" >
+
+        </service>
+
+        <service
+            android:name=".service.RegisterCodeTimerService"
+            android:enabled="true"
+            android:exported="true"/>
     </application>
 
 </manifest>

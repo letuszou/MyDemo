@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:text="@string/tv_about_des"
+        android:text="@string/tv_about_send"
         android:textSize="20sp" />
 
     <TextView

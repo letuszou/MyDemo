@@ -19,13 +19,9 @@ public class RecyclerActivity extends BaseActivity implements View.OnClickListen
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();//隐藏掉整个ActionBar，包括下面的Tabs
         setContentView(R.layout.activity_recycler);
-
         initView();
-
         setListener();
-
         init();
-
     }
 
     @Override
