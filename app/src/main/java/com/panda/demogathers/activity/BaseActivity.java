@@ -1,53 +1,50 @@
 package com.panda.demogathers.activity;
 
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.support.v4.app.FragmentActivity;
 import com.umeng.analytics.MobclickAgent;
 
-public class BaseActivity extends AppCompatActivity {
+
+public abstract class BaseActivity extends FragmentActivity {
 
 
-
-    private boolean isHidden;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        initLayoutView();
+        initView();
+        init();
+        initUrl();
+        initData();
+    }
 
-        ActionBar actionBar =getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
 
+    protected abstract void initLayoutView();
+
+    protected void initView() {
 
     }
 
-    public boolean isHidden(boolean isHidden) {
-        return isHidden;
+    protected void init() {
+    }
+
+    protected void initUrl() {
+    }
+
+    protected void initData() {
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        MobclickAgent.onPageStart("SplashScreen"); //统计页面(仅有Activity的应用中SDK自动调用，不需要单独写。"SplashScreen"为页面名称，可自定义)
         MobclickAgent.onResume(this);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        MobclickAgent.onPageEnd("SplashScreen"); // （仅有Activity的应用中SDK自动调用，不需要单独写）保证 onPageEnd 在onPause 之前调用,因为 onPause 中会保存信息。"SplashScreen"为页面名称，可自定义
         MobclickAgent.onPause(this);
     }
 
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case android.R.id.home:
-                this.finish();
-                break;
-
-        }
-        return super.onOptionsItemSelected(item);
-    }
 }

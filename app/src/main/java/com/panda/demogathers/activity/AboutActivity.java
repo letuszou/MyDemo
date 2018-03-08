@@ -13,23 +13,24 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.panda.demogathers.R;
 import com.panda.demogathers.update.UpdateJson;
 
 public class AboutActivity extends BaseActivity {
 
+
     private TextView about_tv_send;
     private TextView about_tv_update_update;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initLayoutView() {
         setContentView(R.layout.activity_about);
-        initView();
     }
 
 
-    private void initView() {
+    @Override
+    protected void initView() {
 
 
         about_tv_send = (TextView) findViewById(R.id.about_tv_send);
@@ -53,7 +54,6 @@ public class AboutActivity extends BaseActivity {
     }
 
 
-
     private void inputEmail() {
 
         // 1.创建弹出式对话框
@@ -72,7 +72,7 @@ public class AboutActivity extends BaseActivity {
                 if (TextUtils.isEmpty(emailAddress)) {
                     Toast.makeText(AboutActivity.this, "电子邮件不能为空", Toast.LENGTH_SHORT).show();
                 } else {
-                    sendEmail( );
+                    sendEmail();
                 }
 
             }

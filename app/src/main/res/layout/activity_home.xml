@@ -94,7 +94,7 @@
 
 
     <TextView
-        android:id="@+id/tv_send_code"
+        android:id="@+id/tv_about_time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -102,7 +102,7 @@
         android:gravity="center_horizontal"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="@string/tv_send_code"
+        android:text="时间控件相关"
         android:textColor="@color/white"
         android:textSize="16sp" />
 

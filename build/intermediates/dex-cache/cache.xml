@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="H:\develop\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_567b88fe8c9f5d6863b09e7dc15ea6dd68bb8746.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="H:\workSpace\MyDemo\app\libs\android-support-v7-recyclerview.jar"
         jumboMode="false"
         optimize="true"
@@ -57,12 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="H:\develop\Android\studioSDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jar="H:\develop\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_b6dd2f47570d227cab482c58c08af524ad06698d.jar" />
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_dafb9f720f4fa731fe8e02047d51abad4ad4c365.jar" />
     </item>
     <item
         is-multidex="false"
@@ -108,6 +117,15 @@
         revision="25.0.0"
         sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
         <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\gson-2.8.1_66edbecc05d3763de2d2048076cabae319682f44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\workSpace\MyDemo\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="H:\workSpace\MyDemo\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_5c1b97f93ab938c493fc9aaafaaf451c5c1b2c88.jar" />
     </item>
     <item
         is-multidex="false"

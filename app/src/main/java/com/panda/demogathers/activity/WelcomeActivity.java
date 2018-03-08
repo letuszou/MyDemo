@@ -1,23 +1,19 @@
 package com.panda.demogathers.activity;
 
 import android.content.Intent;
-import android.os.Bundle;
 
 public class WelcomeActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void initLayoutView() {
 
-        init();
     }
 
-
-    private void init(){
+    @Override
+    protected void init(){
         startActivity(new Intent(WelcomeActivity.this,HomeActivity.class));
         finish();
 
     }
-
 
 }
